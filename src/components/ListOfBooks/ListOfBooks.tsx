@@ -13,7 +13,7 @@ const ListOfBooks: React.FC = ({ books, error }) {
             <li
             key={book.id}
             >
-                {/* <img></img> */}
+                {/* <img src={book.image} alt={book.title}></img> */}
                 <p>{book.category}</p>
                 <h3>{book.title}</h3>
                 <p>{book.author}</p>
