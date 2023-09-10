@@ -5,22 +5,38 @@ export const Wrapper = styled.header`
     background-size: cover;
     display: flex;    
     justify-content: center;
-    padding-top: 60px;
+    padding: 30px 0;
     
     h1 {
         margin-top: 0;
         color: #fff;
         display: block;
+        user-select: none;
     }
 
     form {        
+        width: 30%;
         display: flex;
         flex-direction: column;
-        justify-content: center;
-        width: 30%;
+        justify-content: center;        
+        align-items: center;
 
         button {
             width: 20%;
+        }
+
+        input {
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 12px;
+        }
+
+        label {
+            color: #fff;
+            margin-right: 12px;
+        }
+        .input-select-block {
+            margin-bottom: 18px;
         }
     }
 
