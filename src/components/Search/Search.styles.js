@@ -23,6 +23,15 @@ export const Wrapper = styled.header`
 
         button {
             width: 20%;
+            color: #fff;
+            background: #ab1a1a;
+            padding: 13px 5px;
+            border: none;
+            cursor: pointer;
+
+            &:hover {
+                background: #dc9918;
+            }
         }
 
         input {
@@ -33,10 +42,17 @@ export const Wrapper = styled.header`
 
         label {
             color: #fff;
-            margin-right: 12px;
         }
+
+        select {
+            margin-left: 8px;
+        }
+
         .input-select-block {
             margin-bottom: 18px;
+            width: 87%;
+            display: flex;
+            justify-content: space-between;
         }
     }
 
