@@ -5,7 +5,7 @@ import rootReducer from './reducers';
 import App from './App.tsx'
 import './index.css';
 
-import store from './store/index.tsx';
+import store from './store/store.tsx';
 
 ReactDOM.createRoot(document.getElementById('root')!).render(
   <Provider store={store}> 
