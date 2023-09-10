@@ -1,11 +1,9 @@
-import * as React from 'react';
+import React from 'react';
 //components
-import Search from './components/Search/Search'
+import Search from './components/Search/Search';
 
-
-function App() {
-
-  return (
+const App: React.FC = () => { 
+ return (
     <>
         <Search />
     </>
